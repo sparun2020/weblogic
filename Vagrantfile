@@ -19,7 +19,7 @@ Vagrant.configure(2) do |config|
   # `vagrant box outdated`. This is not recommended.
   # config.vm.box_check_update = false
   
-  config.vm.network "private_network", ip: "192.168.56.12"
+  config.vm.network "private_network", ip: "192.168.195.3"
   config.vm.hostname = "wls12c1.private"
   
   config.hostmanager.enabled = true
