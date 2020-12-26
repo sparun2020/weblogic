@@ -1,6 +1,6 @@
 ---
 - name: Configure WebLogic 12c domain
-  hosts: weblogic
+  hosts: ansiblehostslave
   sudo: True
   vars_files:
     # User defined variables for infrastructure
