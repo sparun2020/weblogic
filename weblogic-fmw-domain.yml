@@ -1,5 +1,5 @@
 ---
-- name: Configure RHEL 7 with WebLogic 12c domain
+- name: Configure WebLogic 12c domain
   hosts: weblogic
   sudo: True
   vars_files:
